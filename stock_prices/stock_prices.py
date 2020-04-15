@@ -1,9 +1,9 @@
 #!/usr/bin/python
 """
 UNDERSTANDING THE PROBLEM:
-Given a list of numbers, check which is the highest in the list, store the index,
-and based on that check from the first index to that index for the lowest value and store the index in a variable as well
-Then, you want to subtract the highest by the lowest and return the result of that operation
+Given a list of numbers, check which is the highest in the list excluding the first index, store the highest value index,
+and based on that check from the first index to stored highest index for the lowest value and store the index in a variable as well
+Then subtract the highest by the lowest and return the result of that operation which represent the max profit that can be made from that stock
 """
 
 import argparse
